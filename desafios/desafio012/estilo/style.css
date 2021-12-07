@@ -43,14 +43,14 @@ section.normal {
     color: black;
 }
 section.imagem{
-    background-color: #383838;
+    background-color: #1f1f1f;
     color: white;
 }
 section.imagem > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.247);
 }
-}
+
 
 footer {
     background-color: black;
