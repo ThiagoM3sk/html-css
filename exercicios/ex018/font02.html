@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+        @font-face {
+            font-family:'London' ;
+            src: url("fonts/OldLondon.ttf") format("truetype"), url("fonts/Olondona.otf") format("opentype");
+            /* 
+            tipos de format:
+            - truetype: (.ttf)
+            - opentype: (.otf)
+            - embedded-opentype: (.eot)
+            - truetype-aat (Apple Advanced Typography): (.ttc)
+            - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'London', Times, serif;
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'Berkshire Swash', cursive;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti incidunt similique omnis, accusamus dolor vero a, asperiores cumque dolores, perspiciatis odio atque totam ullam quam repellat harum rerum aspernatur!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum vero eligendi dignissimos commodi ab modi non facilis velit sequi quam aliquid, consequatur fugit mollitia, necessitatibus libero amet incidunt quos?</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* recomendação oficial pela w3c é usar em ou px
+            Medidas Absolustas:width: ;
+            cm, mm, in, px, pt, pc
+
+
+            Medidas Relativas:width: 
+            em, ex, ch, rem, vw, vh, vmin, vmax, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+             
+            /* none, underline, overline, line-through */
+            /* lighter, normal, bold, bolder */
+        }
+
+        h1{
+            font: italic bold 2em 'Times New Roman', Times, serif;
+
+            /*  shorthand font
+                - font: font-style -> font-weight -> font-size -> font-family
+
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2em;
+                text-decoration: underline;
+                font-weight: bold;
+
+            */
+        }
+        /* css web safe fonts combination */
+        /* https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet atque distinctio perferendis, voluptatum dolores earum necessitatibus voluptatibus, reiciendis nostrum quae debitis itaque nulla recusandae officia? Error, dicta assumenda. Labore, quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem atque culpa debitis. Illum aspernatur quis quasi, qui, quas repudiandae quidem molestias temporibus ea vero voluptates perspiciatis odit in, beatae ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas labore a, necessitatibus itaque fugiat numquam culpa quidem, ducimus quo nemo, perspiciatis iusto rem totam atque impedit quod vero tempore vel.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corrupti at perspiciatis officiis, ipsam neque odit deserunt, tempora alias soluta ut iure? Incidunt maiores quas obcaecati soluta architecto dolorem dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quisquam ut voluptatem, quia, culpa nihil ea pariatur, labore temporibus qui minima dolor similique doloremque cum nobis explicabo veniam deserunt aut!</p>
+</body>
+</html>
